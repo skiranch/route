@@ -1,20 +1,134 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
+<div class="menu__topmargin"> 
+    <div class="row--bgcolor">
+    <div >
+      <div class="article">
+    <div class="col-xs-3" > 
+      <div class="menu__profile--image">
+      <img src="../assets/images/Sundar_Pichai.jpg" class="img-circle " alt="Cinque Terre" width="75" height="75"> 
+      </div>
+    </div>
+    <div class="col-xs-9" > 
+      <div class="menu__profile--Name">Jana Jimmerson &nbsp; &nbsp; 
+        <span type="button" (click)="onClick()" class="glyphicon glyphicon-menu-down" href=""></span>
+      </div></div>
+    </div>
+    </div>
+    <hr>
+    <div>
+    <div class="menu__company--logo"><img src="../assets/images/logo.PNG"></div>
+    <br>
+    <div class="menu__home--marginMod"><i class="material-icons md-dark">home</i><div class="menu__tab--menuscript"> Retailer Home</div></div> 
+    
+    <hr>
+    <a routerLink="Galleries">
+    <div class="menu__tab--menuicon"><span class="glyphicon glyphicon-th-large"></span><div class="menu__tab--menuscript"> Gallaries</div></div> 
+    </a>
+    <hr>
+    <div class="menu__tab--menuicon"><span class="glyphicon glyphicon-cutlery"></span><div class="menu__tab--menuscript"> Menus</div></div> 
+    
+    <hr>
+    <div class="menu__tab--menuicon"><i class="material-icons">card_travel</i><div class="menu__tab--menuscript"> Jobs</div></div> 
+    
+    <hr>
+    <div class="menu__tab--menuicon"><i class="material-icons">local_offer</i><div class="menu__tab--menuscript"> Offers</div></div> 
+    
+    <hr>
+    <div class="menu__tab--menuicon"><i class="material-icons">event</i><div class="menu__tab--menuscript"> Events</div></div> 
+    
+    <hr>
+    <div class="menu__tab--menuicon"><i class="material-icons">star_border</i><div class="menu__tab--menuscript"> Promote Content</div></div> 
+    
+    <hr>
+    </div>
+    <div class="text-left h4" style="margin-left: 10%; margin-top: 10%;">Stores</div>
+    
+    <hr>
+    <div class="panel-group" id="accordion">
+    <div class="panel panel-default marginMod">
+    <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> 
+                  Conberro (2)    </a>
+              </h4>
+            </div>
+            <hr>
+            <div id="collapseOne" class="panel-collapse collapse in">
+              <div class="panel-body--paddingleft">
+                  <i class="material-icons">room</i><div class="menu__tab--menuscript"> Level 1 Shop 91</div>
+                </div>
+                <hr>
+              <div class="panel-body--paddingleft">
+                 <i class="material-icons">room</i><div class="menu__tab--menuscript"> Level 3 Shop 08</div>
+                    </div>
+                    <hr>
+              </div>
+            </div>
+            <div class="panel panel-default marginMod">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    Eastland (3)
+                  </a>
+                </h4>
+              </div>
+              <hr>
+              <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body--paddingleft">
+                    <i class="material-icons">room</i><div class="menu__tab--menuscript"> Level 1 Shop 218</div>
+                </div>
+                <hr>
+                <div class="panel-body--paddingleft">
+                    <i class="material-icons">room</i><div class="menu__tab--menuscript"> Level 2 Shop 33</div>
+                </div>
+                <hr>
+                <div class="panel-body--paddingleft">
+                    <i class="material-icons">room</i><div class="menu__tab--menuscript"> Level 3 Shop 108</div>
+                </div>
+                <hr>
+              </div>
+            </div>
+            <div class="panel panel-default marginMod">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    Grand Central (3)
+                  </a>
+                </h4>
+              </div>
+              <hr>
+              <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body--paddingleft">
+                    <i class="material-icons">room</i><div class="menu__tab--menuscript"> Level 1 Shop 218</div>
+                   </div>
+                   <hr>
+                <div class="panel-body--paddingleft">
+                <i class="material-icons">room</i><div class="menu__tab--menuscript"> Level 1 Shop 218</div>
+                       </div>
+                       <hr>
+                <div class="panel-body--paddingleft">
+                <i class="material-icons">room</i><div class="menu__tab--menuscript"> Level 1 Shop 218</div>
+                           </div>
+                           <hr>
+      </div>
+    </div>
+    <div class="panel panel-default marginMod">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+              Robina (4)
+            </a>
+          </h4>
+        </div>
+      
+    </div>
+    </div>
+     </div>
+    </div>
+    
+
+  <app-header></app-header>
+  
+<router-outlet></router-outlet><br/>
+<br/>
+<app-footer></app-footer>
